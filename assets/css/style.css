@@ -594,7 +594,7 @@ img{
 		width: 324px;
 	}
 	
-	.about_container, .skills_container, .services_container, .works_container, .contact_container, .contact_input{
+	.about_container, .skills_container, .services_container, .works_container, .contact_container, .contact_input, .porto1_container, .porto2_container, .porto3_container{
 		grid-template-columns: repeat(2, 1fr);
 	}
 	
@@ -602,44 +602,20 @@ img{
 		text-align: initial;
 	}
 	
-	.about_description{
+	.about_description, .porto1_description, .porto2_description, .porto3_description{
 		margin-bottom: 40px;
 	}
 	
-	.about_img{
+	.about_img, .porto1_img, .porto2_img, .porto3_img{
 		width: 220px;
 	}
 	
-	.about_information{
+	.about_information, .porto13_details{
 		padding-left: 64px;
 	}
 	
 	.education_time{
 		padding: 0 32px;
-	}
-	
-	.project{
-		background: none;
-	}
-	
-	.project_container{
-		background-color: #3D60A7;
-		grid-template-columns: 2fr 1.2fr;
-		padding: 0 32px;
-		border-radius: 8px;
-	}
-	
-	.project_data{
-		padding: 48px 0;
-	}
-	
-	.project_title, .project_data{
-		text-align: initial;
-	}
-	
-	.project_img{
-		width: 230px;
-		align-self: flex-end;
 	}
 	
 	.contact_inputs{
