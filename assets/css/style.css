@@ -745,7 +745,7 @@ img{
 }
 
 .porto2_img{
-	width: 280px;
+	width: 100%;
 	justify-self: center;
 	position: relative;
 	overflow: hidden;
