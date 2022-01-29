@@ -594,7 +594,7 @@ img{
 		width: 324px;
 	}
 	
-	.about_container, .skills_container, .services_container, .works_container, .contact_container, .contact_input, .porto1_container, .porto2_container, .porto3_container{
+	.about_container, .skills_container, .services_container, .works_container, .contact_container, .contact_input{
 		grid-template-columns: repeat(2, 1fr);
 	}
 	
@@ -602,15 +602,15 @@ img{
 		text-align: initial;
 	}
 	
-	.about_description, .porto1_description, .porto2_description, .porto3_description{
+	.about_description,{
 		margin-bottom: 40px;
 	}
 	
-	.about_img, .porto1_img, .porto2_img, .porto3_img{
+	.about_img{
 		width: 220px;
 	}
 	
-	.about_information, .porto13_details{
+	.about_information{
 		padding-left: 64px;
 	}
 	
@@ -674,14 +674,14 @@ img{
 	}
 }
 
-/* Work 1 */
-.porto1_container{
+/* Portofolio 1 */
+.portofolio1_container{
 	grid-template-columns: repeat(2, 1fr); 
 	gap: 40px 24px;
 	row-gap: 32px;
 }
 
-.porto1_img{
+.portofolio1_img{
 	width: 100%;
 	justify-self: center;
 	position: relative;
@@ -689,36 +689,21 @@ img{
 	border-radius: 8px;
 }
 
-.port1_title{
-	margin-bottom: 8px;
-}
 
-.porto1_title{
+.portofolio1_title{
 	margin-bottom: 8px;
 	font-size: 20px;
 	color: #FFFAFA;
 }
 
-.porto1_description{
+.porto1folio_description{
 	margin-bottom: 16px;
 	column-gap: 8px;
 	text-align: center;
 }
 
-.porto11_details{
-	display: grid;
-	row-gap: 16px;
-	margin-bottom: 18px;
-}
 
-.porto1-details-description{
-	display: inline-flex;
-	column-gap: 8px;
-	font-size: 12px
-}
-
-
-.port1_data{
+.portofolio1_data{
 	position: absolute;
 	bottom: -100%;
 	width: 100%;
@@ -732,19 +717,19 @@ img{
 	transition: .3s;
 }
 
-.porto1_img:hover .port1_data{
+.portofolio1_img:hover .portofolio1_data{
 	bottom: 0;
 }
 
 
 /* Work 2 */
-.porto2_container{
+.portofolio2_container{
 	grid-template-columns: repeat(2, 1fr); 
 	gap: 40px 24px;
 	row-gap: 32px;
 }
 
-.porto2_img{
+.portofolio2_img{
 	width: 100%;
 	justify-self: center;
 	position: relative;
@@ -752,35 +737,23 @@ img{
 	border-radius: 8px;
 }
 
-.porto2_title{
+.portofolio2_title{
 	margin-bottom: 8px;
 }
 
-.porto2_description{
+.portofolio2_description{
 	margin-bottom: 16px;
 	column-gap: 8px;
 }
 
-.porto2_details{
-	display: grid;
-	row-gap: 16px;
-	margin-bottom: 18px;
-}
-
-.porto2_details-description{
-	display: inline-flex;
-	column-gap: 8px;
-	font-size: 12px;
-	text-align: center;
-}
 
 /* Work 3 */
-.porto3_container{ 
+.portofolio3_container{ 
 	gap: 40px 24px;
 	row-gap: 32px;
 }
 
-.porto3_img{
+.portofolio3_img{
 	width: 280px;
 	justify-self: center;
 	position: relative;
@@ -788,30 +761,30 @@ img{
 	border-radius: 8px;
 }
 
-.porto3_title{
+.portofolio3_title{
 	margin-bottom: 8px;
 }
 
-.porto3_description{
+.portofolio3_description{
 	margin-bottom: 16px;
 	column-gap: 8px;
 	font-weight: 600;
 }
 
-.porto3_details{
+.portofolio3_details{
 	display: grid;
 	row-gap: 16px;
 	margin-bottom: 18px;
 }
 
-.porto3_details-description{
+.portofolio3_details-description{
 	display: inline-flex;
 	column-gap: 8px;
 	font-size: 14px;
 	text-align: center;
 }
 
-.porto3_details-icon{
+.portofolio3_details-icon{
 	font-size: 16px;
 	color: #3D60A7;
 	margin-top: 3px;
